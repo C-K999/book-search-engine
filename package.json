@@ -10,7 +10,6 @@
     "build": "cd client && npm run build",
     "start:prod": "cd server && npm start",
     "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-    "heroku-postbuild": "cd client && npm run build"
   },
   "keywords": [],
   "author": "",
